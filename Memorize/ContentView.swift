@@ -9,6 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        VStack {
+            CardView()
+            CardView()
+        }
+        .padding()
+    }
+}
+
+struct CardView: View {
+    var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 20)
                 .imageScale(.large)
@@ -17,7 +27,6 @@ struct ContentView: View {
                 .foregroundStyle(.white)
                 .font(.largeTitle)
         }
-        .padding()
     }
 }
 
