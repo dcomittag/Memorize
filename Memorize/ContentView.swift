@@ -13,7 +13,7 @@ struct ContentView: View {
             RoundedRectangle(cornerRadius: 20)
                 .imageScale(.large)
                 .foregroundStyle(.teal)
-            Text("Hello, Donald!")
+            Text("Hello, Tucker!")
                 .foregroundStyle(.white)
                 .font(.largeTitle)
         }
